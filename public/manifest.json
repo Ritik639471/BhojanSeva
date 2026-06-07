@@ -1,0 +1,28 @@
+{
+  "name": "BhojanSeva — Free Food Finder",
+  "short_name": "BhojanSeva",
+  "description": "Locate free community food camps — Bhandaras, Langars, Prasad & Iftar — in real-time.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FFF9F5",
+  "theme_color": "#FF9933",
+  "orientation": "portrait-primary",
+  "categories": ["food", "social", "utilities"],
+  "lang": "en",
+  "icons": [
+    { "src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ],
+  "screenshots": [],
+  "shortcuts": [
+    {
+      "name": "Find Food Near Me",
+      "url": "/?page=app",
+      "icons": [{ "src": "/favicon.svg", "sizes": "any" }]
+    },
+    {
+      "name": "Add a Seva Camp",
+      "url": "/?add=true",
+      "icons": [{ "src": "/favicon.svg", "sizes": "any" }]
+    }
+  ]
+}
